@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;700&display=swap");
+
+@font-face {
+    font-family: 'Fipps';
+    src: url('./assets/Fipps-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@layer base {
+    body {
+        @apply font-[Raleway]
+    }
+    li {
+        @apply px-4;
+        @apply cursor-pointer
+    }
+}
+
+.content-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.content-div:hover {
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.8),
+        #7d22d8b2
+    )!important;
+}

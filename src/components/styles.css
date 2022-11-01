@@ -1,0 +1,52 @@
+.shadow{
+    box-shadow: inset 1px 10px 30px 5px rgba(0, 0, 0, 0.247);
+}
+
+.navbar {
+    z-index: 1;
+    background: #ddd;
+    background-image: linear-gradient(45deg, rgb(168, 85, 247), rgb(99, 102, 241), rgb(236, 72, 153));
+    background-size: 400% 400%;
+    /* width: 100%; */
+    /* height: 100vh; */
+    animation: bg-animation 5s ease infinite alternate;
+}
+
+.nose {
+    z-index: 1;
+    background: #ddd;
+    background-image: linear-gradient(90deg, rgba(169, 85, 247, 0.9), rgb(99, 102, 241, 0.9), rgb(236, 72, 153, 0.9));
+    background-size: 400% 400%;
+    /* width: 100%; */
+    /* height: 100vh; */
+    animation: bg-animation 5s ease infinite alternate;
+}
+
+.skills {
+    z-index: 1;
+    background: #ddd;
+    background-image: linear-gradient(180deg, rgb(219, 198, 238), rgb(202, 202, 240), rgb(240, 204, 222));
+    background-size: 400% 400%;
+    /* width: 100%; */
+    /* height: 100vh; */
+    animation: bg-animation 3s ease infinite alternate;
+}
+
+.header {
+    z-index: 1;
+    background: #ddd;
+    background-image: linear-gradient(45deg, rgb(107, 33, 70), rgb(69, 36, 98), rgb(30, 30, 73));
+    background-size: 400% 400%;
+    width: 100%;
+    height: 100vh;
+    animation: bg-animation 10s ease infinite alternate;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: left;
+    }
+    100%{
+        background-position: right;
+    }
+}
