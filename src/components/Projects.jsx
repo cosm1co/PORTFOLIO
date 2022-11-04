@@ -6,12 +6,12 @@ import './styles.css'
 
 export default function Projects() {
   return (
-    <div name='projects' className='w-full md:h-screen text-[#F6F6F6] shadow'>
+    <div name='projects' className='w-full md:h-screen text-[#F6F6F6] shadow navbar'>
 
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full '>
             <div className='pb-8'>
-                <p className='text-4xl font-bold text-[#7d22d8b2]'>These are my projects so far ✔️</p>
-                <p className='py-6 text-[#2b2727]'>Check out some of my recent work</p>
+                <p className='text-4xl font-bold text-white'>These are my projects so far ✔️</p>
+                <p className='py-6 text-white'>Check out some of my recent work</p>
             </div>
 
             {/* container */}

@@ -13,7 +13,7 @@ export default function NavBar() {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-[#F6F6F6] navbar shadow-xl shadow-[#2b272731]' >
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 text-[#F6F6F6] nose shadow-xl shadow-[#2b272731]' >
         <div>
             <img src={Logo} alt="Logo" style={{width: '50px'}}/>
         </div>
@@ -105,8 +105,8 @@ export default function NavBar() {
             </li>
             <li className='w-[140px] h-[45px] flex justify-between items-center ml-[-85px] hover:ml-[-5px] duration-300 bg-[#565F69]'>
               <a className='text-xs flex justify-between items-center w-full text-[#F6F6F6] '
-              href="https://drive.google.com/uc?export=download&id=11DrSqFJ_Z1f3qhnWGtd0pel2uLG6yx4G" target={'blank'}>
-                Download CV <BsFillPersonLinesFill size={25}/>
+              href="https://drive.google.com/file/d/1-23bU1LYTEZ1W3987QJ7TxfyiIipzAQy/view" target={'blank'}>
+                Resume <BsFillPersonLinesFill size={25}/>
               </a>
             </li>
           </ul>
