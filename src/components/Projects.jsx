@@ -27,10 +27,10 @@ export default function Projects() {
                            JUNIOR app
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://github.com/gpitrella/JUNIOR" target={'blank'}>
+                            <a href="https://appjunior.vercel.app/" target={'blank'}>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://appjunior.vercel.app/" target={'blank'}>
+                            <a href="https://github.com/gpitrella/JUNIOR" target={'blank'}>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
