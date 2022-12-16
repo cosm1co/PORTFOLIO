@@ -2,6 +2,7 @@ import React from 'react'
 import countries from '../assets/countries.jpg'
 import techmarket from '../assets/techmarket.jpg'
 import junior from '../assets/junior.png'
+import bovinos from '../assets/bovinos.png'
 import './styles.css'
 
 export default function Projects() {
@@ -50,6 +51,25 @@ export default function Projects() {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/cosm1co/PF-FrontEnd" target={'blank'}>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div style={{backgroundImage: `url(${bovinos})`}}
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            BOVINOS App
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://bovinos.vercel.app/" target={'blank'}>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/cosm1co/BOVINOS-FRONT-DEPLOY" target={'blank'}>
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
                             </a>
                         </div>
